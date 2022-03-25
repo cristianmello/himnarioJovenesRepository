@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/idImagen1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/imagen1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/idImagen2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:src="@mipmap/imagen2"
+        app:layout_constraintEnd_toStartOf="@+id/idImagen3"
+        app:layout_constraintStart_toEndOf="@+id/idImagen1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/idImagen3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="26dp"
+        android:src="@mipmap/imagen3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/idImagen4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/imagen4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen1" />
+
+    <ImageView
+        android:id="@+id/idImagen5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="30dp"
+        android:src="@mipmap/imagen5"
+        app:layout_constraintEnd_toStartOf="@+id/idImagen6"
+        app:layout_constraintStart_toEndOf="@+id/idImagen4"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen2" />
+
+    <ImageView
+        android:id="@+id/idImagen6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="26dp"
+        android:src="@mipmap/imagen6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen3" />
+
+    <ImageView
+        android:id="@+id/idImagen7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/imagen7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen4" />
+
+    <ImageView
+        android:id="@+id/idImagen8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="30dp"
+        android:src="@mipmap/imagen8"
+        app:layout_constraintEnd_toStartOf="@+id/idImagen9"
+        app:layout_constraintStart_toEndOf="@+id/idImagen7"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen5" />
+
+    <ImageView
+        android:id="@+id/idImagen9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="26dp"
+        android:src="@mipmap/imagen9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen6" />
+
+    <ImageView
+        android:id="@+id/idImagen0"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        android:src="@mipmap/image0"
+        app:layout_constraintEnd_toStartOf="@+id/idImagenSearch"
+        app:layout_constraintStart_toEndOf="@+id/idImagenDelete"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen8" />
+
+    <ImageView
+        android:id="@+id/idImagenSearch"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/imagesearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen9" />
+
+    <ImageView
+        android:id="@+id/idImagenDelete"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="11dp"
+        android:src="@mipmap/botoneliminar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen7" />
+
+    <ImageView
+        android:id="@+id/idImagenNumber1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagenDelete" />
+
+    <ImageView
+        android:id="@+id/idImagenNumber2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/idImagenNumber3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/idImagenNumber1"
+        app:layout_constraintTop_toBottomOf="@+id/idImagen0" />
+
+    <ImageView
+        android:id="@+id/idImagenNumber3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idImagenSearch" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

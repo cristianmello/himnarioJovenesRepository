@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "533093397463",
+    "project_id": "himnario-jovenes",
+    "storage_bucket": "himnario-jovenes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533093397463:android:52e147639708f307789192",
+        "android_client_info": {
+          "package_name": "com.example.himnariojovenes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533093397463-7lkh6ie2jl0p1vig79f6sj75ftr99h4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.himnariojovenes",
+            "certificate_hash": "901ce364ecabb9cdbe604b0bcc94b8d36a8bda7a"
+          }
+        },
+        {
+          "client_id": "533093397463-16gptv99p6l7er0csmqdk844odufusa3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0fJjubCZZikyDxSk32Oy8KhQWRPnS5ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533093397463-16gptv99p6l7er0csmqdk844odufusa3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="listaNumeros">
+        <item>@mipmap/numero1</item>
+        <item>@mipmap/numero2</item>
+        <item>@mipmap/numero3</item>
+        <item>@mipmap/numero4</item>
+        <item>@mipmap/numero5</item>
+        <item>@mipmap/numero6</item>
+        <item>@mipmap/numero7</item>
+        <item>@mipmap/numero8</item>
+        <item>@mipmap/imagen9</item>
+        <item>@mipmap/numero0</item>
+    </drawable>
+</resources>
